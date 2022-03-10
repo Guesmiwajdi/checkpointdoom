@@ -14,15 +14,6 @@ let btnmoins = document.getElementsByClassName('btn-moins');
 
 
 
-for (let minus of btnmoins){
-    minus.addEventListener('click',function(){
-        minus.previousElementSibling.innerText --;
-        totalPrice()
-
-    })
-}
-let likebtn = document.getElementsByClassName('fas fa-heart');
-
 
 
 for (let likes of likebtn){
